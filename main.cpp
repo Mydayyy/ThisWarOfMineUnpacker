@@ -8,7 +8,7 @@
 
 namespace fs = std::experimental::filesystem;
 
-static const std::string files[] = {"gog", "common"};
+static const std::string files[] = {"animations", "common", "gog", "localizations", "scenes", "sounds", "templates", "textures-s3", "videos", "voices"};
 
 static const std::string decompressedOutputLocation = "./decompressed/";
 static const std::string compressedOutputLocation = "./compressed/";
