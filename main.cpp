@@ -51,7 +51,7 @@ void compress() {
     Byte indexVersion[11]={0x00, 0x06, 0x01, 0xDE, 0xAD, 0xBE, 0xEF, 0x00, 0x00, 0x00, 0x00};
     Byte isCompressed = 0x00;
 
-    // Location were the containers are located
+    // Location where the containers are located
     fs::path decompressedFilesPath(decompressedOutputLocation.c_str());
 
     if(!fs::exists(decompressedFilesPath) || !fs::is_directory(decompressedFilesPath)) {
