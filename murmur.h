@@ -5,7 +5,7 @@
 #ifndef THISWAROFMINEUNPACKER_MURMUR_H
 #define THISWAROFMINEUNPACKER_MURMUR_H
 
-#include <stdint-gcc.h>
+#include <cstdint>
 
 uint32_t murmurHash ( const void * key, int len, uint32_t seed )
 {
